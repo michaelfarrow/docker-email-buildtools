@@ -17,7 +17,7 @@ RUN npm config set registry http://registry.npmjs.org/ && \
     npm install -g --no-optional gulp@3.8.11 && \
     npm install -g --no-optional gulp-zip@3.0.2 && \
     npm install -g --no-optional gulp-inline-css@2.0.0 && \
-    npm install -g --no-optional gulp-inline@0.0.11 && \
+    npm install -g --no-optional gulp-inline@0.0.12 && \
     npm install -g --no-optional gulp-minify-css@1.2.0
 
 WORKDIR /data
