@@ -14,6 +14,8 @@ RUN apt-get update -y && \
     apt-get clean
 
 RUN npm config set registry http://registry.npmjs.org/ && \
-    npm install -g --no-optional gulp@3.8.11
+    npm install -g --no-optional gulp@3.9.0
+
+RUN gem install compass -v 1.0.3
 
 WORKDIR /data
